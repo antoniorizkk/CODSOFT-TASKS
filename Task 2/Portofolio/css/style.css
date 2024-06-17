@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#about .profile-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-text, .skills-list, .projects-grid {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+footer {
+    background-color: #1abc9c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
